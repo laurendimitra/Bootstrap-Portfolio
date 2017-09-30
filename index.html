@@ -1,0 +1,144 @@
+<!-- Demo Layout for Bootstrap (with panels) -->
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>About Me</title>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
+        crossorigin="anonymous"></script>
+    <!-- We need to bring in the bootstrap CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+
+<body>
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script> -->
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" -->
+    <!-- crossorigin="anonymous"></script> -->
+    <!-- NavBar (copied and pasted from WC3) -->
+    <!-- Static navbar -->
+    <nav class="navbar navbar-default">
+        <div class="container">
+            <div class="navbar-header" id="header">
+                <!-- THIS does the hamburger -->
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false"
+                    aria-controls="navbar">
+              <span class="sr-only">Toggle navigation</span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+                <a class="navbar-brand" id="sitetitle" href="#">Lauren Moore</a>
+            </div>
+            <div id="navbar" id="nav" class="navbar-collapse collapse">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="#">About <span class="sr-only">(current)</span></a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <!--/.nav-collapse -->
+        </div>
+        <!--/.container -->
+    </nav>
+    <!-- Main Body goes in Container -->
+    <div class="container">
+
+        <div class="row">
+
+            <div class="col-md-8" id="section1">
+                <h1>About Me</h1>
+                <hr>
+
+                <div class="col-md-4">
+                    <img src="images/profilepic.jpeg" width="200px" height="200px" class="profpic">
+                </div>
+                <div class="col-med-8">
+                    <p>Lauren is working to become a full-stack developer and as been a junior front-end developer/content manager
+                        for two years. While Lauren feels strongly and passionately for digital engineering and development,
+                        this was not always the case. Her first love was International Diplomacy and followed closely by
+                        Investigatory Journalism. After a few internships in college she quickly realized she more in love
+                        with the idea of these careers than the actuality of bureaucracy and monopoly owned bias.
+                        <br/>She first discovered the world of web-design during her departmental honors project in Communications,
+                        where Lauren ambitiously decided to build a website and social media platform to raise awareness
+                        of human trafficking in America. While she knew nothing of web-design or development, WordPress became
+                        her best friend. Post-graduation she took an offer with AmeriCorps at a crisis center for victims
+                        of Domestic and Sexual Violence, where she worked again with Wordpress on developing the center’s
+                        website.
+                        <br/>Post-service she knew she needed to be in the world of digital marketing and thus applied for
+                        a management position she was severely under qualified for. That gutsiness as well as her proven
+                        track record of learning quickly and tenaciously, landed her a position as a junior web developer
+                        and content manager. After almost two years of working in that position, as well as moonlighting
+                        on numerous sites, she feels that she has reached the limit of enjoyment gained from managing the
+                        content on sites and is eager to learn more and dive deeper in the stack! Her ideal outcome would
+                        be to find a career that helps her balance her thirst for knowledge and love of troubleshooting with
+                        an impactful organization that shares her desire to leave the world better than she found it. <br
+                        />Described by her friends and colleagues as a hard worker, a bit of a weirdo, and a high-functioning
+                        punk/hippy hybrid, Lauren is an avid coffee drinker and wine enthusiast. In her spare time Lauren
+                        likes to play sports, pick things up and put them down at the gym, and do fun things outside. She
+                        is also very into painting, singing, and spending time with her friends. Though, she doesn’t have
+                        a ton of free time, because she’s working hard to provide a better life for her cat Tiger Lilly.</p>
+                </div>
+
+            </div>
+
+            <div class="col-md-4" in="section-2">
+
+                <div class="panel panel-default">
+                    <h4>Connect With Me</h4>
+                    </hr>
+                    <div class="panel-body">
+
+                        <div class="col-sm-4">
+                            <a id="github" class="social" href="https://github.com/laurendimitra">
+                                    <img  src="images/github.png" alt="github">
+                                    <img  src="images/githubgreen.png" alt="githubgreen">
+                                </a>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <a id="linedin" class="social" href="https://www.linkedin.com/in/lauren-moore-2467b8100/">
+                                    <img  src="images/linkedin.png" alt="linkedin">
+                            </a>
+                        </div>
+
+                        <div class="col-sm-4">
+                            <a id="stacko" class="social" href="https://stackoverflow.com/users/8500408/laurendimitra">
+                                    <img  src="images/stacko.png" alt="stackoverflow">
+                                    <img  src="images/stackoteal.png" alt="stackoverflowgreen">
+                                </a>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="container">
+            <div class="col-lg-12" id="footer">
+                <p>Copyright 2016 Lauren Moore</p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+</body>
+
+</html>
